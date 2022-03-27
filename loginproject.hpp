@@ -7,6 +7,7 @@ class LoginProfile {
     private:
     std::string username;
     std::string password;
+
     protected:
 
     public:
@@ -22,6 +23,6 @@ class LoginProfile {
     std::string getUsername();
     void setPassword(std::string password);
     std::string getPassword();
-
+    void storeData(std::string username, std::string password);
 
 };

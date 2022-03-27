@@ -1,10 +1,15 @@
 #include <iostream>
 #include <loginproject.cpp>
 
+
 int main() {
     
-    string simon = "hej";
-    std::cout << " Hello World ! " << std::endl;
+
+    LoginProfile test("simon","1732");
+
+
+    cout << test.getUsername() << endl;
+    cout << test.getPassword() << endl;
     
     return 0;
 

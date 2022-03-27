@@ -33,3 +33,7 @@ void LoginProfile::setPassword(string password) {
     this->password = password;
 
 }
+
+void LoginProfile::storeData(string username, string password) {
+    //json store here
+}
